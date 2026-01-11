@@ -1,0 +1,213 @@
+[gd_scene load_steps=38 format=3 uid="uid://bas3jkvteu265"]
+
+[ext_resource type="Script" uid="uid://bdj4pkt108ry4" path="res://scripts/main.gd" id="1_jyhfs"]
+[ext_resource type="Texture2D" uid="uid://dtqxcq6hckr2n" path="res://Sprites/offices/office.png" id="2_eb6dy"]
+[ext_resource type="Texture2D" uid="uid://dtr1y1hkdu3yh" path="res://Sprites/fan/fan1.png" id="2_tbgi4"]
+[ext_resource type="Texture2D" uid="uid://b76aksb0mvim8" path="res://Sprites/fan/fan2.png" id="3_tefeu"]
+[ext_resource type="Texture2D" uid="uid://bexdh0ih5hjce" path="res://Sprites/offices/office_bonnie.png" id="3_trceg"]
+[ext_resource type="Texture2D" uid="uid://cgaeyhgbivgqm" path="res://Sprites/offices/office_chica.png" id="4_a8y0u"]
+[ext_resource type="Texture2D" uid="uid://c4u7b86e3r7yi" path="res://Sprites/fan/fan3.png" id="4_o6xl0"]
+[ext_resource type="Texture2D" uid="uid://c16p8hnc5vsdw" path="res://Sprites/offices/office_freddy.png" id="5_jkv2x"]
+[ext_resource type="Texture2D" uid="uid://b057kl1towpki" path="res://Sprites/offices/office_L-light.png" id="6_jbj1t"]
+[ext_resource type="Texture2D" uid="uid://2m7eocfcp3df" path="res://Sprites/offices/office_lightsOut.png" id="7_muem4"]
+[ext_resource type="Texture2D" uid="uid://dq8xvcafk48r" path="res://Sprites/offices/office_mirrowed.png" id="8_dp3eg"]
+[ext_resource type="Texture2D" uid="uid://by786kqhe56rp" path="res://Sprites/offices/office_R-light.png" id="9_0ld40"]
+[ext_resource type="Texture2D" uid="uid://lqdk48fpetxp" path="res://Sprites/officeButton/122.1.png" id="13_qkpxi"]
+[ext_resource type="Texture2D" uid="uid://cl5snjngfrjm2" path="res://Sprites/officeButton/124.1.png" id="14_5q0nq"]
+[ext_resource type="Texture2D" uid="uid://cudjpu2f5g4f7" path="res://Sprites/officeButton/125.1.png" id="15_dgi5k"]
+[ext_resource type="Texture2D" uid="uid://b6v3uknacp3jd" path="res://Sprites/officeButton/130.1.png" id="16_j8jky"]
+[ext_resource type="Texture2D" uid="uid://duxnaoouytrgo" path="res://Sprites/officeDoor/88.png" id="17_kmb1v"]
+[ext_resource type="Texture2D" uid="uid://bi202olvgd0rl" path="res://Sprites/officeDoor/106.png" id="18_fuf3a"]
+[ext_resource type="Texture2D" uid="uid://bsvmstdpc1yam" path="res://Sprites/officeDoor/107.png" id="19_pibwh"]
+[ext_resource type="Texture2D" uid="uid://bmpfxmct3rh12" path="res://Sprites/officeDoor/108.png" id="20_c6pm6"]
+[ext_resource type="Texture2D" uid="uid://cjl41aiv5cfgg" path="res://Sprites/officeDoor/109.png" id="21_5he1u"]
+[ext_resource type="Texture2D" uid="uid://xyhn1jsaln37" path="res://Sprites/officeDoor/110.png" id="22_5poiv"]
+[ext_resource type="Texture2D" uid="uid://dus2n20pe7bwb" path="res://Sprites/officeDoor/111.png" id="23_2cjbq"]
+[ext_resource type="Texture2D" uid="uid://x7a6le2uljp0" path="res://Sprites/officeDoor/112.png" id="24_chjal"]
+[ext_resource type="Texture2D" uid="uid://bcrvlbbkiiovb" path="res://Sprites/officeDoor/113.png" id="25_cjqg0"]
+[ext_resource type="Texture2D" uid="uid://dhx8unxjdq6va" path="res://Sprites/officeDoor/114.png" id="26_vchkt"]
+[ext_resource type="Texture2D" uid="uid://bqjcfyh0qcvcy" path="res://Sprites/officeDoor/115.png" id="27_txyw0"]
+[ext_resource type="Texture2D" uid="uid://brc2mllhyi8ar" path="res://Sprites/officeDoor/116.png" id="28_vc5cj"]
+[ext_resource type="Texture2D" uid="uid://bmuiicfqbmlb7" path="res://Sprites/officeDoor/117.png" id="29_nvyfr"]
+[ext_resource type="Texture2D" uid="uid://bf3ewxj6wwono" path="res://Sprites/officeDoor/118.png" id="30_ty1g6"]
+[ext_resource type="Texture2D" uid="uid://b8gk1qw0pnshy" path="res://Sprites/officeDoor/119.png" id="31_j2jfr"]
+[ext_resource type="Texture2D" uid="uid://c1clmuqkrnnq0" path="res://Sprites/officeDoor/121.png" id="32_bjg73"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gqmmt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_eb6dy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_trceg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_a8y0u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_jkv2x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_jbj1t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_muem4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_dp3eg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_0ld40")
+}],
+"loop": true,
+"name": &"office",
+"speed": 7.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sy5k4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_tbgi4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_tefeu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_o6xl0")
+}],
+"loop": true,
+"name": &"fan",
+"speed": 60.0
+}]
+
+[sub_resource type="GDScript" id="GDScript_112p8"]
+script/source = "extends AnimatedSprite2D
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bu4jf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_qkpxi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_5q0nq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_dgi5k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_j8jky")
+}],
+"loop": true,
+"name": &"button",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_o7ddy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_kmb1v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_fuf3a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_pibwh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_c6pm6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_5he1u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_5poiv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_2cjbq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_chjal")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_cjqg0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_vchkt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_txyw0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_vc5cj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_nvyfr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_ty1g6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_j2jfr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_bjg73")
+}],
+"loop": true,
+"name": &"door",
+"speed": 20.0
+}]
+
+[node name="main" type="Node2D"]
+script = ExtResource("1_jyhfs")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(578, 324)
+
+[node name="oficeSprites" type="AnimatedSprite2D" parent="."]
+position = Vector2(578, 324)
+scale = Vector2(0.9, 0.9)
+sprite_frames = SubResource("SpriteFrames_gqmmt")
+animation = &"office"
+
+[node name="animatedFan" type="AnimatedSprite2D" parent="."]
+position = Vector2(622.00006, 360.92023)
+scale = Vector2(0.8985506, 0.89855045)
+sprite_frames = SubResource("SpriteFrames_sy5k4")
+animation = &"fan"
+frame_progress = 0.61264026
+script = SubResource("GDScript_112p8")
+
+[node name="buttonsL" type="AnimatedSprite2D" parent="."]
+position = Vector2(-81, 330.25003)
+scale = Vector2(1, 1.0708503)
+sprite_frames = SubResource("SpriteFrames_bu4jf")
+animation = &"button"
+
+[node name="buttonsR" type="AnimatedSprite2D" parent="."]
+position = Vector2(1264, 330.25)
+scale = Vector2(1, 1.0708503)
+sprite_frames = SubResource("SpriteFrames_bu4jf")
+animation = &"button"
+flip_h = true
+
+[node name="doorR" type="AnimatedSprite2D" parent="."]
+position = Vector2(1104.0001, 313)
+scale = Vector2(0.77016187, 0.8549306)
+sprite_frames = SubResource("SpriteFrames_o7ddy")
+animation = &"door"
+frame = 4
+frame_progress = 0.64645076

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://drcsbwr3lbaom"
-path="res://.godot/imported/spriteOffice.png-7359a5c7ae9be0ab2954e99d06ecbb2b.ctex"
+uid="uid://dtqxcq6hckr2n"
+path="res://.godot/imported/office.png-36ae23f0461e05ad7510fc27901a9133.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/spriteOffice.png"
-dest_files=["res://.godot/imported/spriteOffice.png-7359a5c7ae9be0ab2954e99d06ecbb2b.ctex"]
+source_file="res://Sprites/offices/office.png"
+dest_files=["res://.godot/imported/office.png-36ae23f0461e05ad7510fc27901a9133.ctex"]
 
 [params]
 
